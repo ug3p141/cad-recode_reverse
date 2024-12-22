@@ -20,7 +20,7 @@ This repository contains an implementation of CAD-Recode, a 3D CAD reverse engin
 
 ### Inference Demo
 
-CAD-Recode transforms point cloud to 3D CAD model in form of Python code ([CadQuery](https://github.com/CadQuery/cadquery) library). CAD-Recode is trained upon Qwen2-1.5B, keeping original tokenizer, and adding a single additional linear layer. Model weights are hosted on [HuggingFace](https://huggingface.co/filapro/cad-recode).
+CAD-Recode transforms point cloud to 3D CAD model in form of Python code ([CadQuery](https://github.com/CadQuery/cadquery) library). CAD-Recode is trained upon Qwen2-1.5B, keeping original tokenizer, and adding a single additional linear layer. Model weights are hosted on [HuggingFace](https://huggingface.co/filapro/cad-recode). Our interactive demo in hosted on :hugs: ZeroGPU [spaces](https://huggingface.co/spaces/filapro/cad-recode) (5 GPU minutes for free!).
 
 In this repo we provide simple inference demo. Install python packages according to our [Dockerfile](Dockerfile) and run [demo.ipynb](demo.ipynb) in jupyter.
 
