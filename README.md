@@ -3,7 +3,7 @@
 **News**:
  * :fire: December, 2024. CAD-Recode is state-of-the-art in three CAD reconstruction benchmarks: <br>
   DeepCAD [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/cad-recode-reverse-engineering-cad-code-from/cad-reconstruction-on-deepcad)](https://paperswithcode.com/sota/cad-reconstruction-on-deepcad?p=cad-recode-reverse-engineering-cad-code-from) <br>
-  Fusion360 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/cad-recode-reverse-engineering-cad-code-from/cad-reconstruction-on-deepcad)](https://paperswithcode.com/sota/cad-reconstruction-on-deepcad?p=cad-recode-reverse-engineering-cad-code-from) <br>
+  Fusion360 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/cad-recode-reverse-engineering-cad-code-from/cad-reconstruction-on-fusion-360-gallery)](https://paperswithcode.com/sota/cad-reconstruction-on-fusion-360-gallery?p=cad-recode-reverse-engineering-cad-code-from) <br>
   CC3D [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/cad-recode-reverse-engineering-cad-code-from/cad-reconstruction-on-cc3d)](https://paperswithcode.com/sota/cad-reconstruction-on-cc3d?p=cad-recode-reverse-engineering-cad-code-from)
 
 This repository contains an implementation of CAD-Recode, a 3D CAD reverse engineering method introduced in our paper:
@@ -20,7 +20,7 @@ This repository contains an implementation of CAD-Recode, a 3D CAD reverse engin
 
 ### Inference Demo
 
-CAD-Recode transforms point cloud to 3D CAD model in form of Python code ([CadQuery](https://github.com/CadQuery/cadquery) library). CAD-Recode is trained upon Qwen2-1.5B, keeping original tokenizer, and adding a single additional linear layer. Model weights are hosted on [HuggingFace](https://huggingface.co/filapro/cad-recode). Our interactive demo in hosted on :hugs: ZeroGPU [spaces](https://huggingface.co/spaces/filapro/cad-recode) (5 GPU minutes for free!).
+CAD-Recode transforms point cloud to 3D CAD model in form of Python code ([CadQuery](https://github.com/CadQuery/cadquery) library). CAD-Recode is trained upon Qwen2-1.5B, keeping original tokenizer, and adding a single additional linear layer. Model weights are hosted on [HuggingFace](https://huggingface.co/filapro/cad-recode). Our interactive demo is hosted on :hugs: ZeroGPU [spaces](https://huggingface.co/spaces/filapro/cad-recode) (5 GPU minutes for free!).
 
 In this repo we provide simple inference demo. Install python packages according to our [Dockerfile](Dockerfile) and run [demo.ipynb](demo.ipynb) in jupyter.
 
