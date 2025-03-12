@@ -3,6 +3,7 @@
 :hugs: [Model](https://huggingface.co/filapro/cad-recode) :hugs: [ZeroGPU Space](https://huggingface.co/spaces/filapro/cad-recode) :hugs: [Dataset](https://huggingface.co/datasets/filapro/cad-recode)
 
 **News**:
+ * :rocket: March, 2025. We update the [preprint](https://arxiv.org/abs/2412.14042) with much better metrics. Stay tuned for new model and dataset.
  * :fire: December, 2024. CAD-Recode is state-of-the-art in three CAD reconstruction benchmarks: <br>
   DeepCAD [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/cad-recode-reverse-engineering-cad-code-from/cad-reconstruction-on-deepcad)](https://paperswithcode.com/sota/cad-reconstruction-on-deepcad?p=cad-recode-reverse-engineering-cad-code-from) <br>
   Fusion360 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/cad-recode-reverse-engineering-cad-code-from/cad-reconstruction-on-fusion-360-gallery)](https://paperswithcode.com/sota/cad-reconstruction-on-fusion-360-gallery?p=cad-recode-reverse-engineering-cad-code-from) <br>
