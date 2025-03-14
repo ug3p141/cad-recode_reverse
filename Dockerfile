@@ -17,6 +17,7 @@ RUN git clone https://github.com/isl-org/Open3D.git \
     && make install-pip-package
 
 RUN pip install --no-deps \
+    git+https://github.com/facebookresearch/pytorch3d@06a76ef8ddd00b6c889768dfc990ae8cb07c6f2f \
     git+https://github.com/CadQuery/cadquery.git@e99a15df3cf6a88b69101c405326305b5db8ed94 \
     cadquery-ocp==7.7.2 \
     casadi==3.6.7 \
