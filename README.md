@@ -1,6 +1,6 @@
 ## CAD-Recode: Reverse Engineering CAD Code from Point Clouds
 
-:hugs: Model [v1](https://huggingface.co/filapro/cad-recode), [v1.5](https://huggingface.co/filapro/cad-recode-v1.5) :hugs: [ZeroGPU Space](https://huggingface.co/spaces/filapro/cad-recode) :hugs: [Dataset](https://huggingface.co/datasets/filapro/cad-recode)
+:hugs: Model [v1](https://huggingface.co/filapro/cad-recode), [v1.5](https://huggingface.co/filapro/cad-recode-v1.5) :hugs: ZeroGPU Space [v1](https://huggingface.co/spaces/filapro/cad-recode) :hugs: Dataset [v1](https://huggingface.co/datasets/filapro/cad-recode), [v1.5](https://huggingface.co/datasets/filapro/cad-recode-v1.5)
 
 **News**:
  * :rocket: March, 2025. We update CAD-Recode to v1.5. More details in [changelog](CHANGELOG.md).

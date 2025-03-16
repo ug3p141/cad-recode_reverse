@@ -2,7 +2,7 @@
 
 ### v1.5 (March, 2025)
 
-:page_facing_up: [arxiv](https://arxiv.org/abs/2412.14042v2) :hugs: [model](https://huggingface.co/filapro/cad-recode-v1.5)
+:page_facing_up: [arxiv](https://arxiv.org/abs/2412.14042v2) :hugs: [model](https://huggingface.co/filapro/cad-recode-v1.5) :hugs: [dataset](https://huggingface.co/datasets/filapro/cad-recode-v1.5)
 
 Architecture updates:
  - Remove normals: (x, y, z, n_x, n_y, n_z) -> (x, y, z)
